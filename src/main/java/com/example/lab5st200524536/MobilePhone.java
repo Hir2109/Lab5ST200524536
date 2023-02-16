@@ -18,7 +18,7 @@ public class MobilePhone {
     }
 
     public Image getPhoneImage(){
-
+        imagePath = "E:\\Sem2\\Java\\Lab5\\Lab5ST200524536\\src\\main\\resources\\com\\example\\lab5st200524536\\Images\\phones\\apple-14-blue-pos1.png";
         return new Image(MobilePhone.class.getResourceAsStream(imagePath));
     }
 }
